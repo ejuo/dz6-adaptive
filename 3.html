@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>3</title>
+  <style type="text/css">
+	.header { 
+		background: #E0E0E0;
+		height:50px;
+	}
+	.layout { 
+		overflow: hidden; 
+	}
+	@media screen and (min-width: 800px)  {
+		.col1 { 
+			background: #A3DFEE; 
+			float: left;
+			width: 300px;
+			height:400px;
+		}
+		.col11 { 
+			margin: 0 auto;
+			width: 800px;
+		}
+		.col2 { 
+			background: #B7EFFD; 
+			width: 500px;
+			float: left;
+			height:200px;
+		}
+		.col3 { 
+			background: #D4F2FA; 
+			width: 500px;
+			float: left;
+			height:200px;
+	   }
+   }
+   	@media screen and (max-width: 799px) and (min-width: 320px) {
+		.col1 { 
+			background: #A3DFEE; 
+			float: left;
+			width: 100%;
+			height:100px;
+		}
+		.col11 { 
+			margin: 0 auto;
+			width: 100%;
+		}
+		.col2 { 
+			background: #B7EFFD; 
+			width: 100%;
+			float: left;
+			height:200px;
+		}
+		.col3 { 
+			background: #D4F2FA; 
+			width: 100%;
+			float: left;
+			height:100px;
+	   }
+   }
+	@media screen and (max-width: 319px) {
+		.col1 { 
+			background: #A3DFEE; 
+			float: left;
+			width: 100%;
+			height:50px;
+		}
+		.col11 { 
+			margin: 0 auto;
+			width: 100%;
+		}
+		.col2 { 
+			background: #B7EFFD; 
+			width: 100%;
+			float: left;
+			height:300px;
+		}
+		.col3 { 
+			background: #D4F2FA; 
+			width: 100%;
+			float: left;
+			height:50px;
+	   }
+   }
+  </style>
+ </head>
+ <body>
+	<div class="header"></div>
+	<div class="layout">
+	<div class="col11">
+		<div class="col1"></div>
+		<div class="col2"></div>
+		<div class="col3"></div>
+	</div>
+	</div>
+ </body>
+</html>
